@@ -11,4 +11,4 @@ clean-all:
 	rm -rf _build _inst .deps
 	rm -f configure configure.scan aclocal.m4 Makefile.in depcomp install-sh missing compile
 	rm -f helloworld-0.1.tar.gz
-	rm /usr/local/bin/helloworld
+	sudo rm /usr/local/bin/helloworld
